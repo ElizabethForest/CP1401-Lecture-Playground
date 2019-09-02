@@ -1,0 +1,57 @@
+Lecture 6 pseudo code
+
+
+Activity 1
+
+display "Welcome to Tropical Auto"
+
+get name from user
+
+get age from user
+
+get the car type from user (and display options)
+while car type is compact, suv, or hummer
+    get car type again
+
+get number of days from user (min 1)
+while days not > 0
+    get number of days again
+
+display "thank you for your reservation"
+
+calculate rental price
+
+if car type == compact car
+    base price = 25 * days
+elif car type == suv
+    base price = 45 * days
+else:
+    base price = 100 * days
+
+if age < 25
+    youth tax price = base rental * .3
+else
+    youth tax price = 0
+
+total price = base rental + youth tax
+
+display rental details
+
+
+
+Activity 2
+
+display welcome
+
+for frame_num in range (1, 11):
+    display frame frame_num
+    ball_one = random.randint(0,10)
+    remaining_pins = 10 - ball_one
+    ball_two = random.randint(0, remaining_pins)
+    display ball one total
+    display ball two total
+    display the frame total
+    display the running total
+
+display thanks for playing
+display total
