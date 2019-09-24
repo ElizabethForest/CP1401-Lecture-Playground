@@ -1,3 +1,5 @@
+# Lists
+
 # A list holds a series of data - defined using []
 eg_list = [1, 2, 3]
 print(eg_list)
@@ -8,6 +10,9 @@ print(eg_list[2])
 # lists are mutable so they can be modified
 eg_list.reverse()
 print(eg_list)
+
+
+# Tuples
 
 # A tuple also holds a series of data
 # A tuple is immutable - cannot be modified
@@ -25,6 +30,9 @@ e = (1)  # int
 
 f = ("fish" == "animal")  # boolean
 g = ("fish" == "animal",)  # tuple
+
+
+# Dictionaries
 
 # a dictionary holds a series of key value pairs - defined by {} with a : to seperate the key and value
 eg_dict = {"sven": 34, "bob": 56}
@@ -50,6 +58,8 @@ print(eg_dict)
 for key in eg_dict:
     print(key, eg_dict[key])
 
+
+# Activities
 
 # Lecture Activity 2
 def get_sum_of_list(list):
@@ -107,6 +117,8 @@ def main():
 
 main()
 
+
+# Extra Dictionary practice
 
 def retirement_calculator():
     people = int(input("How many peoples retirement year would you like to calculate?"))
