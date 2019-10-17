@@ -10,14 +10,7 @@ def main():
             pig_latin = word + "yay"
 
         else:
-            # TODO include other possible methods
-            count = 0
-            for char in word:
-                if char not in VOWELS:
-                    count += 1
-                else:
-                    break
-            pig_latin = word[count:] + word[:count] + "ay"
+            pig_latin = translate_1(word)
 
         print(pig_latin)
         word = input("enter a word")
@@ -56,7 +49,6 @@ def translate_3(word):
         if char in VOWELS:
             first_vowel = word.index(char)
             return word[first_vowel:] + word[:first_vowel] + "ay"
-
 
 
 main()
