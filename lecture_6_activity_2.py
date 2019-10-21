@@ -24,7 +24,7 @@ def main():
         ball_two = randint(0, remaining_pins)
         print("Ball two:", ball_two)
 
-        # caculate the total for this frame
+        # calculate the total for this frame
         frame_total = ball_one + ball_two
         print("Frame Total:", frame_total)
 

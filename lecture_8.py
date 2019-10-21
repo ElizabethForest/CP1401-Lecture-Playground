@@ -1,4 +1,3 @@
-
 # Leap Year Task
 
 
@@ -42,7 +41,7 @@ def main():
     print("Thanks for playing!")
 
 
-# get_random answer takes no parameters and returns a randomly selected magic 8-ball answe
+# get_random answer takes no parameters and returns a randomly selected magic 8-ball answer
 def get_random_answer():
     possible_answers = ["No", "Yes", "Ask again later", "Definitely", "Maybe", "Doubtful", "I don't know",
                         "That's not a good question"]
@@ -50,6 +49,3 @@ def get_random_answer():
 
 
 main()
-
-
-
